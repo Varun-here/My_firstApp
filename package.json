@@ -6,7 +6,7 @@
      "web:404": "cp dist/index.html dist/404.html",          
     "deploy": "npm run web:build && npm run web:404 && gh-pages -d dist"
   
-}
+},
 {
   "name": "expo-four-tabs-s53",
   "version": "1.0.0",
