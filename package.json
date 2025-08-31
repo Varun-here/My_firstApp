@@ -1,22 +1,21 @@
 {
-  "homepage": "https://<your-username>.github.io/<your-repo>",
-  "scripts": {
-    "web:build": "npx expo export --platform web",
-    "web:404": "copy dist\\index.html dist\\404.html",          
-     "web:404": "cp dist/index.html dist/404.html",          
-    "deploy": "npm run web:build && npm run web:404 && gh-pages -d dist"
-  
-},
-{
   "name": "expo-four-tabs-s53",
   "version": "1.0.0",
   "private": true,
+
+  
+  "homepage": "https://Varun-here.github.io/My_firstApp",
+
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+
+    "web:build": "npx expo export --platform web",
+    "web:404": "shx cp dist/index.html dist/404.html",
+    "deploy": "npm run web:build && npm run web:404 && gh-pages -d dist"
   },
   "dependencies": {
     "expo": "53.0.22",
@@ -31,5 +30,9 @@
     "expo-linear-gradient": "~14.1.5",
     "react-dom": "19.0.0",
     "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "shx": "^0.3.4"
   }
 }
