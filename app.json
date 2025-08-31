@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Four Tabs (SDK53)",
+    "slug": "expo-four-tabs-s53",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.expoFourTabsS53",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.example.expoFourTabsS53"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7604453f-ec42-4b85-9b8f-02e19b8a3b93"
+      }
+    }
+  }
+}
