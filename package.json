@@ -2,8 +2,8 @@
   "homepage": "https://<your-username>.github.io/<your-repo>",
   "scripts": {
     "web:build": "npx expo export --platform web",
-    "web:404": "copy dist\\index.html dist\\404.html",          // Windows
-    // "web:404": "cp dist/index.html dist/404.html",           // macOS/Linux
+    "web:404": "copy dist\\index.html dist\\404.html",          
+     "web:404": "cp dist/index.html dist/404.html",          
     "deploy": "npm run web:build && npm run web:404 && gh-pages -d dist"
   }
 }
