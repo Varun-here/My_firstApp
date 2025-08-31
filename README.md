@@ -1,6 +1,5 @@
-# Expo Router 4 Tabs (SDK 53)
+# Varun's portfolio application
 
-A fresh Expo SDK 53 app with **four tabs** wired correctly using Expo Router.
 
 ## Run
 ```bash
